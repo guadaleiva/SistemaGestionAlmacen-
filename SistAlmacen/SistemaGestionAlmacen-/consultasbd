@@ -1,0 +1,14 @@
+INSERT INTO Proveedor (nombreProveedor, contactoProveedor, direccionProveedor, telefonoProveedor) VALUES
+('Arcor', 'arcorsj@correo.com', 'P.A. Sarimineto 125 nortr', '2645544555'),
+('Terrabussi', 'terrabusimontemar@gmail.com', 'Segundino Navarro 995 sur', '264565546');
+
+ INSERT INTO Categoria (nombreCategoria) VALUES
+('Golosina'),
+('Alimentos'),
+('Bebidas'),
+('Fiambres')
+('Panificacion');
+
+INSERT INTO Usuario (nombreUsuario, emailUsuario, contraseña, rolUsuario) VALUES
+('Administrador', 'luisleiva01@gmail.com', MD5('LuisAdminist23'), 'ADMIN'),
+('Usuario1', 'juansalsedo@gmail.com', MD5('Jancito1'), 'USER');
